@@ -9,7 +9,7 @@ conda create -n art_gans python=3.8
 pip install -r requirements.txt
 ```
 ### Data
-The abstract folder contains the data. This is representation of where the data exists on your local.
+The abstract folder contains the data. This is a representation of where the data exists on your local.
 ```
 root
 ├───data
