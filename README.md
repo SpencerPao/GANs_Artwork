@@ -25,10 +25,11 @@ root
 ```
 
 ### Notebook
-StyleGan2_ADA_Custom_Abstract.ipynb is the notebook where the work resides. This notebook is google collab oriented. It seems that you need more than 12GB of RAM that is allocated for the free version unfortunatley.
+StyleGan2_ADA_Custom_Abstract.ipynb is the notebook where the work resides. This notebook is google colab oriented. It seems that you need more than 12GB of RAM that is allocated for the free version unfortunatley.
 
 ### Util folder
 Keeps all the preprocessing scripts for images
 
 ### Executables
 - clean_data.py converts and resizes specifically JPG images to PNG. Resized to (256,256,3)
+  - Use results of clean_data.py and send data to google colab in your drive. Directions on what to do next are noted in the StyleGan2_ADA_Custom_Abstract.ipynb notebook.
