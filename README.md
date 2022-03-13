@@ -5,7 +5,7 @@ This repository is meant to explore the random generation of artwork via the usa
 Run the following:
 
 ```
-conda create -n art_gans python=3.8
+conda create -n art_gans python=3.7
 pip install -r requirements.txt
 ```
 ### Data
