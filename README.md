@@ -25,7 +25,7 @@ root
 ```
 
 ### Notebook
-StyleGan2_ADA_Custom_Abstract.ipynb is the notebook where the work resides. This notebook is google colab oriented. It seems that you need more than 12GB of RAM that is allocated for the free version unfortunatley.
+StyleGan2_ADA_Custom_Abstract.ipynb is the notebook where the work resides. This notebook is google colab oriented. It seems that you need more than 12GB of RAM that is allocated for the free version unfortunately.
 
 ### Util folder
 Keeps all the preprocessing scripts for images
