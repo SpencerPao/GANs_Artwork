@@ -7,6 +7,7 @@ __pycache__/
 # C extensions
 *.so
 *.png
+*.pkl
 *.zip
 # Distribution / packaging
 .Python
