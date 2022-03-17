@@ -41,8 +41,6 @@ def jpg_to_gif(file_path_input: str,
         Address where the gif will be located.
     genre:
         what genre your gif is representing.
-    extend_frames:
-        If you want to extend your frames by X seconds.
     duration:
         Length of time on how long you want to extend each frame.
 
