@@ -13,7 +13,7 @@ def file_to_png(source_directory: str,
                 target_directory: str):
     """
         Convert all JPG's to PNG file types.
-        Conversion of dimensions is also initiated. (299,299,3)->(256,256,3)
+        Conversion of dimensions is also initiated. (299,299,3)->(256,256,3) if you want. (line commented)
         Parameters:
             source_directory: str - folder path location to raw files.
             target_directory: str - folder path location to send cleaned files
@@ -77,7 +77,7 @@ def padd_resize_for_input(image_address: str,
     filenames = glob(f'{image_address}*.png')
     print("Padding and resizing PNG images...")
     for f in filenames:
-        res = _expand2square(f, (255, 255, 255)).resize((1024, 1024))
+        res = _expand2square(f, (255, 255, 255)).resize((dimension, dimension))
         fi = f.split('\\')[1]
         res.save(f'{target_address}/{fi}', quality=95)
 
