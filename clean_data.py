@@ -13,7 +13,7 @@ def main():
     """Padding images to square shape and resize if appropriate."""
     # data_processing.padd_resize_for_input(
     #     image_address='data/cleaned_train/',
-    #     dimension=1024,
+    #     dimension=1024, # for stylegan2, the dimensions should be (128,256,512,1024)
     #     target_address='data/cleaned_train_resized/')  # cleaned_train_resized
     """Checking number of channels."""
     # arr = data_processing.check_channels(file_path_address='data/cleaned_train_resized',
