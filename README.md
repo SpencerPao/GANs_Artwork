@@ -13,14 +13,18 @@ The abstract folder contains the data. This is a representation of where the dat
 ```
 root
 ├───data
+|   ├───Abstract_GIF
+|   ├───Abstract_Progression_Images
 │   ├───cleaned_train
-│   │   └───abstract
+│   │   └───genre_of_art
 │   ├───cleaned_validation
-│   │   └───abstract
+│   │   └───genre_of_art
 │   ├───train
-│   │   └───abstract
+│   │   └───genre_of_art
 │   └───validation
-│       └───abstract
+│       └───genre_of_art
+├───model
+│   └───model_name
 └───util
 ```
 
